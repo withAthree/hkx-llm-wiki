@@ -20,17 +20,8 @@ raw/                       ← 原始资料收件箱（我放入，我/LLM 只�
 wiki/                      ← 知识编译输出层（LLM 完全写权限）
 ├── index.md               ← 全局内容字典
 ├── log.md                 ← 行为流水线（grep-friendly）
-├── concepts/              ← 抽象层（按领域分子目录）
-│   ├── psychology/        ← 心理、认知、焦虑管理
-│   ├── thinking-models/   ← 思维模型、认知升级
-│   ├── productivity/      ← 效率、方法论
-│   ├── finance/           ← 理财、金钱观
-│   └── technology/        ← 技术、编程、AI
-├── entities/              ← 实体层（按类型分子目录）
-│   ├── people/            ← 人物
-│   ├── books/             ← 书籍、文章
-│   ├── companies/         ← 公司、组织
-│   └── tools/             ← 工具、软件
+├── concepts/              ← 抽象层（编译时按领域动态分子目录）
+├── entities/              ← 实体层（编译时按类型动态分子目录）
 ├── sources/               ← 摘要层（薄层索引）
 └── syntheses/             ← 综合层（深度研究报告）
 │

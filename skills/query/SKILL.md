@@ -53,14 +53,15 @@ qmd query "用户的问题"
 
 > 这个总结有价值，要存到 wiki/syntheses/ 吗？
 
-用户同意后：
+用户同意后，创建 synthesis 页面：
 
 ```markdown
 ---
 title: "synthesis-标题"
 type: synthesis
-created: YYYY-MM-DD
+tags: [标签]
 sources: [引用的wiki页面路径]
+last_updated: YYYY-MM-DD
 ---
 
 # 标题
@@ -70,6 +71,8 @@ sources: [引用的wiki页面路径]
 ## 分析
 
 ## 引用
+
+## 关联连接
 ```
 
 并在 `wiki/index.md` 的 Syntheses 分类下注册。

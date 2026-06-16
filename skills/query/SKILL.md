@@ -85,7 +85,7 @@ last_updated: YYYY-MM-DD
 
 - 触发：用户要求查笔记/wiki
 - 搜索：qmd 命中 N 个结果 / 目录检索
-- 引用：psychology/flow, people/AuthorA
+- 引用：经济学/货币共识理论, 人物/蒋哥
 - 存档：syntheses/synthesis-标题 / 否
 - 兜底：否 / 是
 ```

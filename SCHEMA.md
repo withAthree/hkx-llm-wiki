@@ -76,7 +76,7 @@
 - **概念/实体/来源页：使用中文文件名**（确保 Obsidian 图谱正常显示）
   - 例如：`长尾理论.md`、`心流.md`、`十分钟读懂金钱真相.md`
 - 纯英文专有名词（PDF、RAG、Transformer）：用英文
-- 子目录名用英文：`concepts/economics/`
+- 子目录名用中文：`concepts/经济学/`
 
 ---
 

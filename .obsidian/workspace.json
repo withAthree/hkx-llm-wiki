@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4459a67c744f88b8",
+        "id": "89fea38cdf486d5d",
         "type": "tabs",
         "children": [
           {
-            "id": "716529ba9d66c568",
+            "id": "2986994c92a09dc0",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -176,12 +176,40 @@
       "bases:新建数据库": false
     }
   },
-  "active": "716529ba9d66c568",
+  "active": "2986994c92a09dc0",
   "lastOpenFiles": [
+    "wiki/concepts/history/宋朝交子.md",
     "raw/03-transcripts/长尾理论.md",
     "raw/03-transcripts/投资是怎样赚钱的.md",
     "raw/03-transcripts/十分钟读懂金钱真相.md",
     "raw/03-transcripts/2026-06-12_抖音_橙子思维破局_提问式夸奖.md",
-    "raw/03-transcripts/10年副业经验-对话Zion-CEO.md"
+    "raw/03-transcripts/10年副业经验-对话Zion-CEO.md",
+    "wiki/concepts/economics/债务货币体系.md",
+    "raw/09-archive/长尾理论.md",
+    "raw/09-archive/投资是怎样赚钱的.md",
+    "raw/09-archive/十分钟读懂金钱真相.md",
+    "raw/09-archive/2026-06-12_抖音_橙子思维破局_提问式夸奖.md",
+    "raw/09-archive/10年副业经验-对话Zion-CEO.md",
+    "wiki/entities/people/克里斯·安德森.md",
+    "wiki/entities/people/花生-新川阅览室.md",
+    "wiki/entities/companies/有知有行.md",
+    "wiki/entities/people/蒋哥.md",
+    "wiki/entities/companies/Zion无代码平台.md",
+    "wiki/entities/people/孟岩.md",
+    "wiki/concepts/economics/利基市场.md",
+    "wiki/concepts/economics/长尾理论.md",
+    "wiki/concepts/economics/英格兰银行与纸币.md",
+    "wiki/concepts/investment/混沌理论与股市.md",
+    "wiki/concepts/investment/指数基金投资.md",
+    "wiki/concepts/investment/市场情绪温度计.md",
+    "wiki/concepts/investment/边际定价机制.md",
+    "wiki/concepts/investment/投资底层逻辑.md",
+    "wiki/entities/companies",
+    "wiki/entities/people",
+    "wiki/concepts/investment",
+    "wiki/concepts/history",
+    "wiki/concepts/economics",
+    "wiki/concepts/psychology",
+    "wiki/concepts/business"
   ]
 }

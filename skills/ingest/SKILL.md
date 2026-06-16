@@ -43,6 +43,12 @@ LLM-Wiki 的摄入工作流。用户丢素材到 `raw/` 后，我自主扫描、
 ### 综合报告 (wiki/syntheses/)
 始终放根目录，不再分子目录。
 
+### 命名规则
+- **概念/实体/来源页文件名：使用中文**（确保 Obsidian 图谱正常显示）
+  - 例如：`长尾理论.md`、`心流.md`、`十分钟读懂金钱真相.md`
+- 纯英文专有名词（PDF、RAG、Transformer）：用英文
+- 子目录名用英文：`concepts/economics/`
+
 ## 步骤
 
 ### 1. 自动扫描
@@ -63,11 +69,11 @@ LLM-Wiki 的摄入工作流。用户丢素材到 `raw/` 后，我自主扫描、
 **观点** — 独特主张、论证、结论（仅当足够独立且有归档价值时）
 
 ### 4. 创建来源摘要页（薄层）
-写入 `wiki/sources/摘要-{文件slug}.md`：
+写入 `wiki/sources/来源文件名.md`：
 
 ```markdown
 ---
-title: "摘要-文件slug"
+title: "来源文件名"
 type: source
 tags: [标签]
 sources: [raw/xx/xxx.md]
@@ -78,8 +84,8 @@ last_updated: YYYY-MM-DD
 [1-2句话]
 
 ## 本素材产出的知识单元
-- [[EntityName]] — 实体
-- [[ConceptName]] — 概念
+- [[蒋哥]] — 实体
+- [[长尾理论]] — 概念
 
 ## 关联连接
 ```
@@ -97,7 +103,7 @@ title: "知识单元名称"
 type: entity | concept
 domain: 领域名
 tags: [标签]
-sources: [摘要-slug]
+sources: [十分钟读懂金钱真相]
 last_updated: YYYY-MM-DD
 ---
 
@@ -108,8 +114,8 @@ last_updated: YYYY-MM-DD
 [一个主题，保持聚焦]
 
 ## 关联连接
-- [[摘要-slug]] — 来源
-- [[RelatedPage]] — 相关内容
+- [[十分钟读懂金钱真相]] — 来源
+- [[投资底层逻辑]] — 相关内容
 ```
 
 **页面已存在 → 增量合并。** 只加新信息，不重复。
@@ -126,17 +132,17 @@ last_updated: YYYY-MM-DD
 4. **继续**
 
 ### 7. 更新索引
-在 `wiki/index.md` 对应分类下新增条目，标注子目录：
+在 `wiki/index.md` 对应分类下新增条目：
 
 ```
 ### wiki/sources/
-- [[摘要-xxx]] — 核心主旨
+- [[十分钟读懂金钱真相]] — 核心主旨
 
 ### wiki/concepts/
-- [[目录名/concept-name]] — 定义
+- [[economics/货币共识理论]] — 定义
 
 ### wiki/entities/
-- [[目录名/EntityName]] — 定义
+- [[people/孟岩]] — 定义
 ```
 
 ### 8. 记录日志
@@ -144,7 +150,7 @@ last_updated: YYYY-MM-DD
 ## [YYYY-MM-DD] ingest | 标题
 
 - 来源：raw/路径
-- 新原子页：people/AuthorA, psychology/flow
+- 新原子页：people/蒋哥, economics/货币共识理论
 - 更新页：page3
 - 冲突：无
 ```
@@ -155,8 +161,8 @@ last_updated: YYYY-MM-DD
 ### 10. 完成后一次性报告
 ```
 📥 Ingest 完成 — 素材名
-├── 实体：N 个 (people/AuthorA, tools/Obsidian)
-├── 概念：N 个 (psychology/flow, productivity/gtd)
+├── 实体：N 个 (people/蒋哥, companies/Zion)
+├── 概念：N 个 (economics/货币共识理论, investing/指数基金)
 ├── 更新：N 个
 └── 冲突：无
 ```

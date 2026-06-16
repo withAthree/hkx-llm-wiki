@@ -1,0 +1,8 @@
+{
+  "userIgnoreFilters": [
+    "assets/",
+    "raw/",
+    "skills/",
+    "wiki/*.md"
+  ]
+}

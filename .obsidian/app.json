@@ -1,8 +1,12 @@
 {
   "userIgnoreFilters": [
-    "assets/",
+    "README.md",
+    "SCHEMA.md",
+    "WORKER_BRIEF.md",
     "raw/",
+    "assets/",
     "skills/",
-    "wiki/*.md"
+    "wiki/log.md",
+    "wiki/index.md"
   ]
 }
